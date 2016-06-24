@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.2
+FROM ubuntu
 RUN apt-get update && \
     apt-get install -y qemu-kvm dnsmasq \
 		       bridge-utils genisoimage curl jq
